@@ -1,0 +1,14 @@
+train: /Users/mathewmorris/DataScience/Crash Detection/train/images
+val: /Users/mathewmorris/DataScience/Crash Detection/valid/images
+test: /Users/mathewmorris/DataScience/Crash Detection/test/images
+nc: 3
+names:
+- accident
+- person
+- vehicle
+roboflow:
+  workspace: dhamzyy
+  project: crash-detection-0qbaa
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dhamzyy/crash-detection-0qbaa/dataset/2
